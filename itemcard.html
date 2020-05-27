@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-header-logo" href="index.html">
+                <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
+            </a>
+            <ul class="site-navigation">
+                <li>
+                    <a href="info.html">Информация</a>
+                </li>
+                <li>
+                    <a href="news.html">Новости</a>
+                </li>
+                <li>
+                    <a href="price.html">Прайс-лист</a>
+                </li>
+                <li class="site-navigation-current">
+                    <a href="catalog.html">Магазин</a>
+                </li>
+                <li>
+                    <a href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+            <ul class="user-navigation">
+                <li>
+                    <a class="login-link" href="login.html">Вход</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">Название товара</h1>
+
+        <ul class="breadcrumbs">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="catalog.html">Средства</a></li>
+            <li class="breadcrumbs-current">Название товара</li>
+        </ul>
+
+        <section class="product-photos">
+            <h2 class="visyally-hidden">Изображения товара</h2>
+            <p class="product-photo-full">
+                <img src="img/product-big.jpg" width="460" height="498" alt="Крупная фотка">
+            </p>
+            <ul class="product-photo-review">
+                <li><img src="img/product-small-1.jpg" width="140" height="149" alt=""></li>
+                <li><img src="img/product-small-1.jpg" width="140" height="149" alt=""></li>
+                <li><img src="img/product-small-1.jpg" width="140" height="149" alt=""></li>
+            </ul>
+        </section>
+
+        <section class="product-info">
+            <h2 class="visyally-hidden">Описание товара</h2>
+            <p class="product-availability">Есть в наличии</p>
+            <p class="product-article">Артикул: </p>
+            <p class="product-text">Некое очень длинное, крутое и содержательное описание
+                товара
+            </p>
+            
+            <p class="product-price">
+                <b>6 666</b>
+                <a class="button" href="#">Купить</a>
+            </p>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+
+        <p class="footer-contacts">
+            The Worst Barbershop Ever <br>
+            Адрес: Набережные Челны, ул. Раскольникова 48 <br>
+            <a href="map.html">Карта</a> <br>
+            Телефон: Дадим личный номер после пятого посещения
+        </p>
+
+         <div class="footer-social">
+             <b>Другом ты нам не станешь, но всё равно подпишись</b>
+             <ul>
+             <li><a class="social-button" href="#">Вконтакте</a></li>
+             <li> <a class="social-button" href="#">Фейсбук</a></li>
+             <li><a class="social-button" href="#">Инстраграм</a></li>
+            </ul>
+         </div>
+         
+         <p class="footer-copyright">
+            <b>Разработано: </b>
+            <a class="button" href="">Ссылка на свой гитхаб</a>
+        </p>
+    </footer>
+
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль.</p>
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+            <p>
+                <label class="visually-hidden" for="user-login">Логин</label>
+                <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+            </p>
+            <p>
+                <label class="visually-hidden" for="user-password">Пароль</label>
+                <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+            </p>
+            <p class="login-password-info">
+                <label class="login-checkbox">
+                    <input type="checkbox" name="remember" class="visually-hidden">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль!</a>
+            </p>
+            <button class="button" type="submit">Войти</button>
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+    <section class="modal modal-map">
+        <h2 class="visually-hidden">Карта</h2>
+        <span class="modal-close">X</span>
+    </section>
+</body>
+</html>

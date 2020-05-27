@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-header-logo">
+                <img src="img/index-logo.svg" width="368" height="153" alt="Логотип">
+            </a>
+            <ul class="site-navigation">
+                <li><a href="info.html">Информация</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="price.html">Прайс-лист</a></li>
+                <li><a href="catalog.html">Магазин</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="user-navigation">
+                <li class="login-link">Вход</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="container">
+        <h1 class="visually-hidden">The Worst Barbershop Ever</h1>
+
+        <section class="features">
+            <h2 class="visually-hidden">Преимущества</h2>
+            <ul class="features-list">
+                <li class="features-item">
+                    <h3>Долго</h3>
+                    <p>Мы делаем свою работу очень долго! 
+                        Вы просидите в очереди не меньше часа.</p>
+                </li>
+                <li class="features-item">
+                    <h3>Отвратительно</h3>
+                    <p>Мы сделаем так, чтобы от Вас шарахался каждый прохожий. </p>
+                </li>
+                <li class="features-item">
+                    <h3>Очень дорого</h3>
+                    <p>Вам придётся взять кредит или стать нашим рабом.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="news">
+            <h2>Новости</h2>
+            <ul class="news-list">
+                <li class="news-item">
+                    <p>Нам завезли ягуаров. Теперь во время стрижки вас могут сожрать.</p>
+                    <time datetime="2020-04-20">20 апреля</time>
+                </li>
+                <li class="news-item">
+                    <p>В нашей команде пополнение. Андрей "Бритва" Трискунов, бежавший зэк. 
+                        Вы узнаете, почему его прозвище "Бритва".</p>
+                    <time datetime="2020-05-13">13 мая</time>
+                </li>
+            </ul>
+            <a class="button" href="news.html">Все новости</a>
+        </section>
+
+        <section class="gallery">
+            <h2>Фотогалерея</h2>
+            <figure class="gallery-content">
+                <a href="#"><img src="img/studio.jpg" width="286" height="164" alt="Интерьер"></a>
+            </figure>
+            <button type="button" class="button gallery-button gallery-button-back">Назад</button>
+            <button type="button" class="button gallery-button gallery-button-next">Вперёд</button>
+        </section>
+
+        <section class="contacts">
+            <h2>Контактная информация</h2>
+            <p>
+                The Worst Barbershop Ever <br>
+                Адрес: Набережные Челны, ул. Раскольникова 48 <br>
+                Телефон: Мы сами тебе позвоним
+            </p>
+            <p>
+                Время работы <br>
+                пн-пт: с 21:00 до 06:00 <br>
+                сб-вс: Не работаем. Попробуй только показаться у нашего входа в выходные!
+            </p>
+            <a class="button" href="map.html">Как проехать</a>
+            <a class="button" href="contacts.html">Обратная связь</a>
+        </section>
+
+        <section class="appointment">
+            <h2>Записаться</h2>
+            <p class="appointment-info">Укажите удобную для Нас дату и время и, возможно,
+                мы подумаем с вами свзяться для подтверждения брони
+            </p>
+            <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+                <p class="appointment-item">
+                    <label for="appointment-date">Дата</label>
+                    <input id="appointment-date" type="text" name="date" value="" placeholder="24.05.2020">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-time">Время</label>
+                    <input id="appointment-time" type="text" name="time" value="" placeholder="00:00">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-name">Имя</label>
+                    <input id="appointment-name" type="text" name="name" value="" placeholder="Ублюдок">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-phone">Телефон</label>
+                    <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+373 789 45 613">
+                </p>
+                <button class="button" type="submit">Отправить</button>
+            </form>
+        </section>
+    </main> 
+
+    <footer class="main-footer">
+
+        <p class="footer-contacts">
+            The Worst Barbershop Ever <br>
+            Адрес: Набережные Челны, ул. Раскольникова 48 <br>
+            <a href="map.html">Карта</a> <br>
+            Телефон: Дадим личный номер после пятого посещения
+        </p>
+
+         <div class="footer-social">
+             <b>Другом ты нам не станешь, но всё равно подпишись</b>
+             <ul>
+             <li><a class="social-button" href="#">Вконтакте</a></li>
+             <li> <a class="social-button" href="#">Фейсбук</a></li>
+             <li><a class="social-button" href="#">Инстраграм</a></li>
+            </ul>
+         </div>
+         
+         <p class="footer-copyright">
+            <b>Разработано: </b>
+            <a class="button" href="">Ссылка на свой гитхаб</a>
+        </p>
+    </footer>
+
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <P>Введите свой логин и пароль</P>
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+            <p>
+                <label class="visually-hidden" for="user-login">Логин</label>
+                <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Zheka126">
+            </p>
+            <p>
+                <label class="visually-hidden" for="user-password">Пароль</label>
+                <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="ОченьСложныйПароль">
+            </p>
+            <p class="login-password-info">
+                <label for="login-password-info">
+                <input class="visually-hidden" id="login-password-info" type="checkbox" name="remember">
+                <span class="checkbox-indicator"></span>
+                Запомните меня 
+                </label>
+            <a class="restore" href="#">Я забыл пароль!</a>
+            </p>
+            <button class="button" type="submit">Войти</button>
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+    <section class="modal modal-map">
+        <h2 class="visually-hidden">Карта</h2>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+</body>
+</html>
