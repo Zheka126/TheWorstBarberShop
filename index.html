@@ -8,6 +8,7 @@
         href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,8 +21,8 @@
             <div class="main-navigation-wrapper">
                 <div class="container">
                     <ul class="site-navigation">
-                        <li>
-                            <a href="info.html">Информация</a>
+                        <li class="site-navigation-current">
+                            <a>Информация</a>
                         </li>
                         <li>
                             <a href="news.html">Новости</a>
@@ -54,20 +55,18 @@
             <h2 class="visually-hidden">Преимущества</h2>
             <ul class="features-list">
                 <li class="feature-item">
-                    <h3>Быстро</h3>
-                    <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной
-                        стрижки-минутки!</p>
+                    <h3>Долго</h3>
+                    <p>Мы наслаждаемся своей работой. А вы сможете насладиться богатым спектром незабываемых ощущений!</p>
                 </li>
                 <li class="feature-item">
                     <h3>Круто</h3>
-                    <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае
+                    <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду цирка уродов. По крайней мере
                         внешне.</p>
                 </li>
                 <li class="feature-item">
                     <h3>Дорого</h3>
-                    <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает
-                        определенный
-                        статус?</p>
+                    <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. Возможно, вам даже придётся взять кредит. 
+                    </p>
                 </li>
             </ul>
         </section>
@@ -78,13 +77,11 @@
                 <h2>Новости</h2>
                 <ul class="news-list">
                     <li class="news-item">
-                        <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+                        <p>Нам наконец завезли ягуара! Теперь мы предоставляем услуги быстрой липосакции!</p>
                         <time datetime="2016-01-11">11 января</time>
                     </li>
                     <li class="news-item">
-                        <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград
-                            пополнил
-                            наши стройные ряды</p>
+                        <p>В нашей команде пополнение, Борис «Бритва» Стригунец, много раз сидевший в тюрьмах зэк. Вы узнаете, почему его прозвали "Бритва".</p>
                         <time datetime="2016-01-18">18 января</time>
                     </li>
                 </ul>
@@ -113,20 +110,20 @@
                 <p>
                     Барбершоп «Бородинский»
                     <br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8
-                    <br> Телефон: +7 (812) 666-02-66
+                    <br> Телефон: +6 (666) 666-66-66
                 </p>
                 <p>
                     Время работы:
                     <br> пн—пт: с 10:00 до 22:00
                     <br> сб—вс: с 10:00 до 19:00
                 </p>
-                <a class="button" href="map.html">Как проехать</a>
+                <a class="button contacts-button-map" href="map.html">Как проехать</a>
                 <a class="button" href="contacts.html">Обратная связь</a>
             </section>
 
             <section class="appointment">
                 <h2>Записаться</h2>
-                <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
+                <p class="appointment-info">Укажите желаемую дату и время и мы подумаем, стоит ли с вами связываться для подтверждения брони
                 </p>
                 <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
                     <p class="appointment-item">
@@ -159,8 +156,8 @@
                 Барбершоп «Бородинский»
                 <br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8
                 <br>
-                <a href="map.html">Как нас найти?</a>
-                <br> Телефон: +7 (812) 666-02-66
+                <a class="how_to_get_button" href="map.html">Как нас найти?</a>
+                <br>Телефон: +6 (666) 666-66-66
             </p>
             <div class="footer-social">
                 <b>Давайте дружить!</b>
@@ -199,7 +196,7 @@
             </div>
             <p class="footer-copyright">
                 <b>Разработано:</b>
-                <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+                <a class="button" href="https://github.com/Zheka126">Zheka126</a>
             </p>
         </div>
     </footer>
@@ -232,6 +229,11 @@
 
     <section class="modal modal-map">
         <h2 class="visually-hidden">Как до нас добраться</h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.7378363247526!2d59.445581013717195!3d61.
+        75444736695034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x438c33cf28703395%3A0x47b901119e0f1845!2z0J_Qs
+        NC80Y_RgtC90LjQuiDQs9GA0YPQv9C_0LUg0JTRj9GC0LvQvtCy0LA!5e0!3m2!1sru!2s!4v1593249896545!5m2!1sru!2s" width="766"
+            height="560" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <p>
             <img src="img/map.jpg" width="780" height="560"
                 alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
@@ -239,6 +241,7 @@
         <button class="modal-close" type="button">Закрыть</button>
     </section>
 
+    <script src="Scripts\script.js"></script>
 </body>
 
 </html>

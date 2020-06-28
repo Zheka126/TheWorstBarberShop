@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Барбершоп «Бородинский»</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic"
-        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -15,94 +15,52 @@
     <header class="main-header">
         <nav class="main-navigation container">
             <a class="main-header-logo" href="index.html">
-                <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
+                <img src="img/logo.svg" width="368" height="153" alt="Логотип барбершопа «Бородинский»">
             </a>
             <ul class="site-navigation">
-                <li>
-                    <a href="index.html">Информация</a>
-                </li>
-                <li>
-                    <a href="news.html">Новости</a>
-                </li>
-                <li>
-                    <a href="price-list.html">Прайс-лист</a>
-                </li>
-                <li class="site-navigation-current">
-                    <a>Магазин</a>
-                </li>
-                <li>
-                    <a href="contacts.html">Контакты</a>
-                </li>
+                <li><a href="index.html">Информация</a></li>
+                <li class="site-navigation-current"><a>Новости</a></li>
+                <li><a href="price-list.html">Прайс-лист</a></li>
+                <li><a href="catalog.html">Магазин</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
             </ul>
             <ul class="user-navigation">
-                <li>
-                    <a class="login-link" href="login.html">Вход</a>
-                </li>
+                <li><a class="login-link" href="login.html">Вход</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container">
+        <div class="index-columns">
 
-        <h1 class="page-title">Набор для путешествий «Baxter of California»</h1>
-
-        <ul class="breadcrumbs">
-            <li>
-                <a href="index.html">Главная</a>
-            </li>
-            <li>
-                <a href="#">Магазин</a>
-            </li>
-            <li>
-                <a href="#">Средства для ухода</a>
-            </li>
-            <li class="breadcrumbs-current">Набор для путешествий «Baxter of California»</li>
-        </ul>
-
-        <div class="catalog-columns">
-
-            <section class="product-photos">
-                <h2 class="visually-hidden">Изображения товара</h2>
-                <p class="product-photo-full">
-                    <img src="img/product-big.jpg" width="460" height="498" alt="Фото всего набора">
-                </p>
-                <ul class="product-photo-preview">
-                    <li>
-                        <img src="img/product-small-1.jpg" width="140" height="149" alt="Фото в анфас">
+            <section class="news">
+                <h2>Новости</h2>
+                <ul class="news-list">
+                    <li class="news-item">
+                        <p>Нам наконец завезли ягуара! Теперь мы предоставляем услуги быстрой липосакции!</p>
+                        <time datetime="2016-01-11">11 января</time>
                     </li>
-                    <li>
-                        <img src="img/product-small-2.jpg" width="140" height="149" alt="Фото в профиль">
-                    </li>
-                    <li>
-                        <img src="img/product-small-3.jpg" width="140" height="149" alt="Фото отдельной части">
+                    <li class="news-item">
+                        <p>В нашей команде пополнение, Борис «Бритва» Стригунец, много раз сидевший в тюрьмах зэк. Вы узнаете, почему его прозвали "Бритва".</p>
+                        <time datetime="2016-01-18">18 января</time>
                     </li>
                 </ul>
+                <a class="button" href="news.html">Все новости</a>
             </section>
 
-            <section class="product-info">
-                <h2 class="visually-hidden">Описание товара</h2>
-                <div class="product-description">
-                    <p class="product-availability">Есть в наличии</p>
-                    <p class="product-article">Артикул: dexter-ae</p>
+            <section class="gallery">
+                <h2>Фотогалерея</h2>
+                <div class="gallery-container">
+                    <figure class="gallery-content">
+                        <a href="#">
+                            <img src="img/studio.jpg" width="286" height="164" alt="Интерьер">
+                        </a>
+                    </figure>
+                    <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
+                    <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
                 </div>
-                <p class="product-text">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной
-                    кожаной сумке находится все,
-                    что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания,
-                    увлажняющий
-                    крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-                <p class="product-price">
-                    <b>2 900 ₽</b>
-                    <a class="button" href="#">Купить</a>
-                </p>
-                <h3>В набор входят:</h3>
-                <ul>
-                    <li>Средство для умывания (50 мл)</li>
-                    <li>Увлажняющий крем (50 мл)</li>
-                    <li>Крем для бритья (50 мл)</li>
-                    <li>Крем после бритья, шампунь (50 мл)</li>
-                    <li>Удобная кожаная косметичка</li>
-                </ul>
             </section>
+
         </div>
 
     </main>
