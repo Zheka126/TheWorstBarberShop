@@ -221,7 +221,7 @@ input[type="radio"].visually-hidden {
   width: 16px;
   height: 18px;
 
-  background-image: url("/img/login.svg");
+  background-image: url("../img/login.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 
